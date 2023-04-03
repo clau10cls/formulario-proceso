@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Formulario Proceso</title>
+</head>
+<body>
+    <h1>FORMULARIO PROCESO</h1>
+    <div class="contenedor" id="contenedor-formulario">
+      <!-- INICIO FORMULARIO -->
+      <form id="formulario">
+        <!-- PASO 1 -->
+        <div class="paso-formulario" id="paso1">
+          <h2>PASO 1</h2>
+          <div class="seccion-inputs">
+            <label for="nombre">NOMBRE</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="apellido">APELLIDO</label>
+            <input type="text" name="apellido" id="apellido">
+          </div>
+          <div class="seccion-botones">
+            <button type="button" id="next1">Siguiente</button>
+          </div>
+        </div>
+        <!-- PASO 2 -->
+          <div class="paso-formulario" id="paso2">
+          <h2>PASO 2</h2>
+          <div class="seccion-inputs">
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email">
+            <label for="telefono">TELEFONO</label>
+            <input type="text" name="telefono" id="telefono">
+          </div>
+          <div class="seccion-botones">
+            <button type="button" id="prev1">Anterior</button>
+            <button type="button" id="next2">Siguiente</button>
+          </div>
+        </div>
+        <!-- PASO 3 -->
+        <div class="paso-formulario" id="paso3">
+          <h2>PASO 3</h2>
+          <div class="seccion-inputs">
+            <label for="user">USUARIO</label>
+            <input type="text" name="user" id="user">
+            <label for="password">CONTRASEÑA</label>
+            <input type="password" name="password" id="password">
+          </div>
+          <div class="seccion-botones">
+            <button type="button" id="prev2">Anterior</button>
+            <button type="submit" id="submit">Finalizar</button>
+          </div>
+        </div>
+      </form>
+      <!-- FIN FORMULARIO -->
+    </div>
+</body>
+</html>
